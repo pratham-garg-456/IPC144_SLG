@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+    int num1, num2, result;
+
+    // Accept two integers from the user
+    printf("Enter an integer (num1): ");
+    scanf("%d", &num1);
+
+    printf("Enter another integer (num2): ");
+    scanf("%d", &num2);
+
+    // Compare num1 and num2 using the modulus operator
+    result = ((num1 + num2) % 2 == 0) ? 1 : 0;
+
+    // Display the values
+    printf("Sum of %d and %d is even: %d\n", num1, num2, result);
+
+    return 0;
+}
