@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+    int N;
+    int sum;
+
+    // Prompt user for the number N
+    printf("Enter a positive integer N: ");
+    scanf("%d", &N);
+
+    // Calculate the sum of the first N natural numbers
+    sum = N * (N + 1) / 2;
+
+    // Display the calculated sum
+    printf("Sum of the first %d natural numbers: %d\n", N, sum);
+
+    return 0;
+}
