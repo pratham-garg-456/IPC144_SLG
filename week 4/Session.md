@@ -19,7 +19,8 @@
 
 ------------------------------------------------
 
-<img width="1440" alt="switch_case_2" src="https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/fe5d2f2f-0815-4812-b881-719e56c45aee">
+<img width="585" alt="switch_case_2" src="https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/7d1aacbc-674d-4a62-8299-4f2e3f8b14c9">
+
 
 #### What will be the output of the above code?
 
