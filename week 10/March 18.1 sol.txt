@@ -6,7 +6,7 @@ Q 1.1 Create a user defined type "User" to represent user data, which includes a
 
 1. struct User {
 	int id;
-	int name;   -> char [50] name; array declaration is folows this pattern ( datatype identifier [size];)
+	int name;   -> char [50] name; array declaration follows this pattern ( datatype identifier [size];)
 	int age;
 }
 2. struct User{
