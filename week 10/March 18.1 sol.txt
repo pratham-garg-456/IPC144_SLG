@@ -1,0 +1,132 @@
+Students: Bishwo, Amany, Nimesh, Bryson, Chloey
+
+-------------------struct, functions and array---------------------------
+
+Q 1.1 Create a user defined type "User" to represent user data, which includes an 'id', 'name', and 'age'.
+
+1. struct User {
+	int id;
+	int name;   -> char [50] name; array declaration is folows this pattern ( datatype identifier [size];)
+	int age;
+}
+2. struct User{
+	int userId, userAge;
+	string username;  -> dont use strings, highly prohibited!!
+}
+3. struct User{
+	int id; 
+	char name;
+	double age;		-> age can be double but does not make sense to say I am 20.5 years old
+}
+4. struct User{
+	int id;
+	char [] name;  -> char name[];  -> arrays size must be defined.
+	int age;
+}
+5. struct User{
+	char id;		->  id cannot be characters as it does not make sense to have 'a' or any char as id
+	char name;    -> char name[]; -> char name[50];  
+	int age;
+}
+
+final answer
+
+struct User{
+	int id;
+	char name[50];   // regarding this
+	int age;
+};
+
+
+
+Q 2.1 Create a function named as 'print' that takes one 'int' as a argument and prints it value on the screen.
+
+
+1. void printA(int value){
+	printf("Value : %d",value);
+} 
+
+
+2. int printB (int value){  // int value = 5;
+	
+	printf("the number is : %d",value);  // the number is : 5
+	return value; 
+}
+int main(){
+	int a = printA(5); // this is wrong
+	printA(5);
+	int a = printB(5); 
+	printf("%d", a);
+}
+
+Q 2.2 create a variable name as age of type 'int'.
+
+primitive
+dataype		identifier;
+int 		age;
+
+Q2.3 Create a variable name as Amany of type 'User'.
+
+derived
+datatype    identifier;
+struct User Amany;
+
+
+2.4 Create a function named as 'printUser' that takes a 'User' as a argument and prints its details on the screen.
+
+struct User{
+	int id;
+	char name[50];  
+	int age;
+};
+
+void printUser(struct User userA){ // I was missing identifier(userA)
+	printf("User id is: %d", userA.id);
+	printf("User name is: %s", userA.name); // not %c -> it means only single character
+	printf("User age is: %d", userA.age);
+}
+
+
+
+3.1 Create an array of 'int' of size 3 named as ids and initialize it to some value of your choice. 
+
+int main(){
+	int ids[3] ={10, 11, 12};  // size is optional when initializing with values
+	int ids[3] = {0}; // it is also ok but all the three value will be 0
+	return 0;
+}
+
+
+
+3.2 In the main function create an array of 'User' of size 3 named as 'users' and initialize it to some values of your choice.
+
+struct User{
+	int id;
+	char name[50];  
+	int age;
+};
+
+
+int a[2] = {1,2};
+struct User a = {11313, "Nimesh", 22};
+
+struct User users[3]={	{12321, "Amany", 23}, {341231, "Bryson", 25}, {423423, "Cloey Truong", 21}};
+
+struct User users[3] = {0}; //
+
+
+4.1 In the main function iterate over the 'ids' and print the all the ids using 'print' function.
+
+4. In the main function iterate over the 'users' and print the details of all the users using 'printUser' function.
+
+-------------------------------------------------------------------------
+
+-------------------------pointers----------------------------------------
+
+1. create a int named as 'value' which stores the value of 5.
+
+2. create a int point named as ptr which stores the address of value.
+
+3. create a function named addPBV which takes a int variable as a parameter and adds five into the value of the integer received as parameter.
+
+4. create a funtion name addPBA which takes address of a integer variable as a parameter and adds five into the value stored at the address received as parameter.

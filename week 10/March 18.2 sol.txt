@@ -1,0 +1,129 @@
+Students: Parnian and Anthony
+
+
+-------------------struct, functions and array---------------------------
+
+Q 1.1 Create a user defined type "User" to represent user data, which includes an 'id', 'name', and 'age'.
+
+Ans. 
+//typedef struct {
+//	int id;
+//	char name;
+//	int age;
+//} user;
+
+struct User { // name you tag with first letter capital
+	int id;
+	char name[50];   // size of array is must in declaration
+	int age;
+};
+
+Q 2.1 Create a function named as 'print' that takes one 'int' as a argument and prints it value on the screen.
+
+int printA (int num){
+	printf("%d\n",num);
+	return num;
+}
+
+void printB (int num){
+	printf("%d\n",num);
+}
+
+int main (){
+	
+	printA(5);
+}
+
+
+
+Q 2.2 declare a variable named as age of type 'int'.
+primitive
+datatype	identifier
+int        	age;
+
+-----------------------------------------------------------
+
+Q 2.3 Declare a variable name as anthony of type 'User'.
+
+keyword Tag
+struct User { // name you tag with first letter capital
+	int id;
+	char name[50];   // size of array is must in declaration
+	int age;
+};
+derived datatype	identifier
+struct User		 anthony;
+
+
+
+
+
+
+Q 2.1 Create a function named as 'print' that takes one 'int' as a argument and prints it value on the screen.
+
+void print(int num){  // parameters or arguments
+	printf("%d\n",num);
+}
+
+Q 2.4 Create a function named as 'printUser' that takes a 'User' as a argument and prints its details on the screen.
+
+struct User { // name you tag with first letter capital
+	int id;
+	char name[50];   // size of array is must in declaration
+	int age;
+};
+
+void printUser(struct User a){
+	// code
+	printf("Id of the user is: %d\n" , a.id);
+	printf("Name of the user is: %s, a.name);
+	printf("Age of the user is: %d, a.age);
+}
+
+
+
+Q 3.1 Create an array of 'int' of size 3 named as ids and initialize it to some value of your choice. 
+
+int a = 200;
+
+// array of int
+
+int ids [3] = {200, 322, 100}; 
+
+struct User amany = { 321412, "amany", 25  };	
+
+// array of User
+
+struct User {
+	char name[50]; // never ever use strings
+	int age;
+	char email[20];
+}
+
+struct User users[3] = { { "amany", 25, "Amany@gmail.com"  }, { "anthony", 23, "Anthony@gmail.com" }, { "parnian", 22, "Parnian@gmail.com"  } };
+
+
+struct User users[] = { { 321412, "amany", 25  }, { 3424324, "anthony", 23  }, { 321422, "parnian", 22  } };
+
+
+
+
+Q 3.2 Create an array of 'User' of size 3 named as 'users' and initialize it to some values of your choice.
+
+
+
+Q 4.1 In the main function iterate over the 'ids' and print the all the ids using 'print' function.
+
+Q 4.2 In the main function iterate over the 'users' and print the details of all the users using 'printUser' function.
+
+-------------------------------------------------------------------------
+
+-------------------------pointers----------------------------------------
+
+1. create a int named as 'value' which stores the value of 5.
+
+2. create a int point named as ptr which stores the address of value.
+
+3. create a function named addPBV which takes a int variable as a parameter and adds five into the value of the integer received as parameter.
+
+4. create a funtion name addPBA which takes address of a integer variable as a parameter and adds five into the value stored at the address received as parameter.
