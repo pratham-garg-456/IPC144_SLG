@@ -1,6 +1,6 @@
 -------------------struct, functions and array---------------------------
 
-1.1 Create a user defined type "User" to represent user data, which includes an 'id', 'name', and 'age'.
+1.1 Create a user defined type "User" to represent user data, which includes an 'id', 'name', and 'age'. Give appropriate datatype to the data members.
 
 2.1 Create a function named as 'print' that takes one 'int' as a argument and prints it on the screen.
 
@@ -8,7 +8,7 @@
 
 3.1 In the main function create array of 'int' of size 3 named as ids and initialize it to some value of your choice. 
 
-3. In the main function create an array of 'User' of size 3 named as 'users' and initialize it to some values of your choice.
+3. In the main function create an array of 'User' of size 3 named as 'students' and initialize it to some values of your choice.
 
 4.1 In the main function iterate over the 'ids' and print the all the ids using 'print' function.
 
@@ -20,8 +20,8 @@
 
 1. create a int named as 'value' which stores the value of 5.
 
-2. create a int point named as ptr which stores the address of value.
+2. create a integer pointer named as ptr which stores the address of value.
 
-3. create a function named addPBV which takes a int variable as a parameter and adds five into the value of the integer received as parameter.
+3. create a function named "addPBV" which takes a int variable as a parameter and adds five into the value of the integer received as parameter.
 
-4. create a funtion name addPBA which takes address of a integer variable as a parameter and adds five into the value stored at the address received as parameter.
+4. create a funtion name "addPBA" which takes address of a integer variable as a parameter and adds five into the value stored at the address received as parameter.
