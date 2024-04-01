@@ -1,0 +1,32 @@
+Imagine we are developing a simple library management system. To represent the books and their details create the following data structures:
+
+Book:
+	1. A Cstring to store the type of the book
+	//Type of book: Fiction, Non-Fiction, Reference, etc.
+	2. A Cstring to store the ISBN of the book
+	// ISBN : (13 digits)
+
+LibraryMember:
+	1. integer to store memberID
+	2. A Cstring to store the name of the library member
+	3. A Book type to store the details of the book borrowed.
+
+Note: Create appropriate macros for the size.
+
+Your task is to implement the following function:
+
+void displayAllMembers(const LibraryMember members[], int max, int format): Display all library members' data in the specified format.
+
+#define MAX_MEMBERS 100
+
+int main() {
+    LibraryMember members[MAX_MEMBERS];
+    int memberCount = 0;
+    displayAllMembers(members, memberCount, 1);
+}
+    
+
+
+
+
+

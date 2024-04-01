@@ -1,0 +1,69 @@
+#define MAXISBN 13  // correct  -> Macro #define
+#define MAXTYPEBOOK 15
+#define MAXMEMBER 20
+#define MAXNAME 18
+
+struct Book{
+	char typeOfBook[MAXTYPEBOOK+1]; // Cstring
+	char ISBN[MAXISBN+1]; //Cstring
+};
+
+struct LibraryMember{
+	int memberID; // int memberID
+	char name[MAXNAME+1]; // 
+	struct Book bookBorrowed; // Book to store book type
+};
+
+Create a variable a of type int which has value 10
+
+int value = 10;
+
+2. Create a variable member1 of type LibraryMember which has the following data:
+
+1234
+Bryson
+Novel
+978-1503275188 
+
+3234
+Enayat
+Fiction
+978-1503273243
+
+
+struct LibraryMember member1 = {1234,"Bryson",{"Novel","978-1503275188"}};
+
+member1.bookBorrowed.typeOfBook
+Create an array of LibraryMembers named members which was initialized to these values: 
+1234
+Bryson
+Novel
+978-1503275188 
+
+3234
+Enayat
+Fiction
+978-1503273243
+
+
+struct LibraryMembers members[3] = {{1234,"Bryson",{"Novel","978-1503275188"}}, {3234,"Enayat",{"Fiction","978-1503273243"}}};
+
+
+
+printf("The ID of the first Library member is : %s", member[2].bookBorrowed.typeOfBook);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

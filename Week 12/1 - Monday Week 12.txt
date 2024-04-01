@@ -1,0 +1,65 @@
+Amany :
+
+#define ISBN_DIGITS 20
+#define NAME_LENGTH 31
+#define SIZE 50
+#define BOOK_TYPE 40
+struct Book{
+	char bookType[BOOK_TYPE];
+	char ISBN[ISBN_DIGITS + 1]; 
+};
+
+// Marcos are missing
+
+
+Bishwo:
+
+struct LibraryMember{
+
+	int memberID;
+	char memberName[NAME_LENGTH + 1];
+	struct Book BorrowedBooks;
+};
+
+
+create a variable a of type int which has value 5;
+
+int a = 5;
+int a[4] = 5;
+
+"Bryson"// Character arrays are C string
+array {} & seprated by commas
+struct {} & seprated by commas
+
+struct LibraryMember member1[4] = {{1234,"Bryson",{"Novel","978-1503275188"} }, {1234,"Amany",{"Novel","978-1503275188"} }, {1234,"Chloey",{"Novel","978-1503275188"} }, {1234,"Bishwo",{"Novel","978-1503275188"} }};
+
+
+-----------------Clear input buffer---------------
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    char b;
+    char c;
+    printf("Enter a integer: ");
+    scanf("%d", &a );
+    while (getchar() != '\n') // eat charcter until you hit new line character
+     {
+         ;  // empty statement intentional
+     }
+    
+   // printf("Enter a character: ");
+    //scanf(" %c", &b);
+    // printf("Enter a character: ");
+    // scanf(" %c", &c);
+    
+    printf("The interger you entered is this: %d \n", a);
+    //printf("The Character you entered is this: %c ", b);
+   // printf("The Character you entered is this: %c ", c);
+    
+    // the next character from buffer is automatically assigned to the scanf
+    return 0;
+}
+
+
