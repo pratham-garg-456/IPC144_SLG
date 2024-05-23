@@ -1,6 +1,8 @@
 
 Coding Question
 
+![Screenshot 2024-05-23 151102](https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/ece33c2c-a623-4a7d-8ee1-16a43710df79)
+![Screenshot 2024-05-23 150605](https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/9471b3d3-06e9-4084-9117-5f18f009c91b)
 
 
 
@@ -15,8 +17,9 @@ True
 Casting to convert one type to another
 
 
-Team 1
+## Team 1
 
+```C
 
 int main(void){
 int input;
@@ -32,12 +35,12 @@ printf("%6.3lf", (double) input / 1.24);
 return 0;
 }
 
+```
 
 
+## Team 2
 
-Team 2
-
-
+```C
 #include <stdio.h>
 #include <time.h>
 
@@ -58,12 +61,10 @@ if (isEqual){
 
 }
 
+```
 
-
-
-
-Team 3
-
+## Team 3
+```C
 Todo 1
 int input = -1;
 int inputUser = 0;
@@ -92,5 +93,5 @@ result = input / 1.24;
 printf(“%.3f\n”, result);
 
 sorry my computer got disconnected 
-
+```
 
