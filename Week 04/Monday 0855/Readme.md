@@ -1,3 +1,7 @@
+
+![IPC144 (Week4) (1)_page-0001](https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/027f6ab6-cd44-44a3-879a-acfa1d923a7f)
+![IPC144 (Week4) (1)_page-0002](https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/69e5dd06-e600-488b-be15-529e244a19e2)
+
 ![IPC 144 (Week4) notes_page-0001](https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/0ad160a8-ca23-47d1-92d9-5d888bf9fcd5)
 ![IPC 144 (Week4) notes_page-0002](https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/5d365ebb-61d4-466f-b3db-a1bdafd79734)
 ![IPC144 (Week4)_page-0002](https://github.com/pratham-garg-456/IPC144_SLG/assets/81003075/5b137ae3-e5a6-4947-8c69-11af0d0e21a4)
